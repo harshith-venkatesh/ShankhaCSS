@@ -34,7 +34,7 @@ export const Avatar = ({ setRoute }) => {
 				<em>avatar</em> classes tagging different sizes{" "}
 				<em>small,medium,large</em>
 			</p>
-			<div className="flexp-1">
+			<div className="flex p-1">
 				<img src={image} alt="profile" className="avatar img-extra-small " />
 				<img src={image} alt="profile" className="avatar img-small " />
 				<img src={image} alt="profile" className="avatar" />
@@ -52,13 +52,14 @@ export const Avatar = ({ setRoute }) => {
 				</pre>
 			</div>
 			<hr />
+			{/* 
 			<h4>Text Avatarof Different Sizes</h4>
 			<p>
 				You can use initial letters of user inavataras well. You need to include
 				class <em>avatar-text</em> along with <em>avatar </em>and size class.{" "}
 				<em>(e.g. class="avatar avatar-lg-size avatar-text")</em>
 			</p>
-			<div className="flex  ">
+			<div>
 				<div
 					alt="profile"
 					className="avatar img-extra-small  avatar-text"
@@ -92,7 +93,7 @@ export const Avatar = ({ setRoute }) => {
 					</code>
 					<br />
 				</pre>
-			</div>
+			</div> */}
 		</div>
 	);
 };

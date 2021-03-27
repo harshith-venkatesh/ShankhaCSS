@@ -88,6 +88,12 @@ body {
 	background-color: #fff;
 	font-size: 1rem;
 	line-height: 1.2;
+	background: radial-gradient(
+		ellipse at center,
+		rgba(255, 254, 234, 1) 0%,
+		rgba(255, 254, 234, 1) 35%,
+		#b7e8eb 100%
+	);
 }
 
 .font-lato {
@@ -925,7 +931,8 @@ hr {
 	justify-items: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
-	width: 50%;
+	width: 20rem;
+	height: 25rem;
 	transition: 0.5s transform ease-in-out;
 	margin: 2rem auto;
 }
@@ -1183,4 +1190,32 @@ select {
 	color: white;
 	text-decoration: none;
 	padding: 0.2rem 1rem;
+}
+
+/* Home */
+.home-container {
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	background-image: url("./assets/cherry-209.png");
+}
+
+.home-image {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.home-text {
+	z-index: 1;
+	position: absolute;
+	font-size: 2rem;
+	color: var(--primary-color);
+	font-weight: bold;
+	top: 40%;
+	left: 30%;
+	width: 40%;
+}
+
+.home-text-highlight {
+	color: black;
 }
