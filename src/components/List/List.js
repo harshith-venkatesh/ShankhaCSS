@@ -52,7 +52,6 @@ export const List = () => {
 				<li className="list-inline">Home</li>
 				<li className="list-inline">Smartphones</li>
 				<li className="list-inline">Earphones</li>
-				<li className="list-inline">Watches</li>
 			</ul>
 		</div>
 	);
