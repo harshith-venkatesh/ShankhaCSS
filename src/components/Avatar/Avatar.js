@@ -17,7 +17,7 @@ export const Avatar = ({ setRoute }) => {
 			<div className="flex">
 				<img src={image} alt="profile" className="avatar img-small" />
 			</div>
-			<div className="code-display">
+			{/* <div className="code-display">
 				<pre>
 					<code>
 						{`
@@ -27,6 +27,7 @@ export const Avatar = ({ setRoute }) => {
 					<br />
 				</pre>
 			</div>
+			 */}
 			<hr />
 			<h4>Avatar of Different Sizes</h4>
 			<p>
@@ -39,7 +40,7 @@ export const Avatar = ({ setRoute }) => {
 				<img src={image} alt="profile" className="avatar img-small " />
 				<img src={image} alt="profile" className="avatar" />
 			</div>
-			<div className="code-display">
+			{/* <div className="code-display">
 				<pre>
 					<code>
 						{`
@@ -51,6 +52,7 @@ export const Avatar = ({ setRoute }) => {
 					<br />
 				</pre>
 			</div>
+			 */}
 			<hr />
 			{/* 
 			<h4>Text Avatarof Different Sizes</h4>
