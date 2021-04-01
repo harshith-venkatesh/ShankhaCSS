@@ -402,6 +402,13 @@ em {
 	.navbar-links.active {
 		display: flex;
 	}
+	.container {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0 1rem;
+	}
 }
 
 .toggle-button .bar {
