@@ -25,7 +25,7 @@ export const NavBar = ({ setRoute }) => {
 					</div>
 					<div>
 						<div className="navbar-links">
-							<ul className="list-no-bullet">
+							<ul className="list-no-bullet flex-center">
 								<li onClick={() => setRoute("Avatar")}>Docs</li>
 								<li onClick={() => setRoute("Avatar")}>Examples</li>
 								<li onClick={() => setRoute("Avatar")}>Releases</li>
