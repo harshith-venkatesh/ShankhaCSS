@@ -384,7 +384,7 @@ em {
 		display: none;
 		width: 100%;
 		padding: 0.5rem;
-		margin: 0.5rem;
+		margin: 0.5rem auto;
 	}
 	.header-container {
 		flex-direction: column;
@@ -660,7 +660,7 @@ hr {
 
 .alert {
 	height: 2rem;
-	margin: 0.5rem 1rem;
+	margin: 0.5rem auto;
 	color: white;
 	font-weight: bold;
 	padding: 0.5rem;
@@ -731,7 +731,7 @@ hr {
 
 .quote {
 	background: #f4f4f4;
-	margin: 1rem;
+	margin: 1rem auto;
 	padding: 1rem;
 	border: none;
 }
@@ -961,7 +961,7 @@ hr {
 	transition: 0.3s;
 	width: 100%;
 	transition: 0.5s transform ease-in-out;
-	margin: 2rem;
+	margin: 2rem auto;
 	padding: 1rem;
 }
 
@@ -996,7 +996,7 @@ input[type="text"],
 select {
 	width: 100%;
 	padding: 12px 20px;
-	margin: 8px 0;
+	margin: 0.4rem 0;
 	display: inline-block;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -1019,14 +1019,12 @@ select {
 	width: 16rem;
 	height: 16rem;
 	border-radius: 10px;
-	margin: 2rem;
 }
 
 .border-round-image {
 	width: 16rem;
 	height: 16rem;
 	border-radius: 10px;
-	margin: 2rem;
 	border-radius: 50%;
 }
 

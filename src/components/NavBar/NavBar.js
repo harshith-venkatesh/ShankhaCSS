@@ -3,7 +3,7 @@ import { Header } from "../Header/Header";
 
 export const NavBar = ({ setRoute }) => {
 	return (
-		<div className="container">
+		<div>
 			<h1>Navigation</h1>
 			<p>
 				Navigation bar is used to navigate through the web apps or websites.
