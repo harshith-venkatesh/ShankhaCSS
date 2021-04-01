@@ -2,7 +2,7 @@ import React from "react";
 
 export const Slider = () => {
 	return (
-		<div class="slider-container">
+		<div>
 			<label class="slider-track" for="range">
 				<input
 					class="slider"
