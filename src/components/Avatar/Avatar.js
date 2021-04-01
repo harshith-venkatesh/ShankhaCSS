@@ -3,7 +3,7 @@ import React from "react";
 import { harshithImage as image } from "../../constants/constants";
 export const Avatar = ({ setRoute }) => {
 	return (
-		<div>
+		<div className="container">
 			<h1>Avatar</h1>
 			<p>
 				Avatar can be used to show user's profile picture on profile information
