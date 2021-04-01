@@ -28,9 +28,7 @@ export const Form = () => {
 				/>
 				<div className="error-text">Email should contain @</div>
 
-				<label className="form-label form-label-required-field" for="country">
-					Country
-				</label>
+				<label className="form-label form-label-required-field">Country</label>
 				<select id="country" name="country">
 					<option value="australia">Australia</option>
 					<option value="canada">Canada</option>
