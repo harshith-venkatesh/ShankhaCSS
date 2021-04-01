@@ -3,7 +3,7 @@ import React from "react";
 export const Form = () => {
 	return (
 		<div>
-			<h1>Form Components</h1>
+			<h1>Form </h1>
 			<p>
 				There are form fields listed below and form validation is also styled.
 			</p>
