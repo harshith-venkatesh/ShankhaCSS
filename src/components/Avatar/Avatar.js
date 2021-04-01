@@ -57,7 +57,7 @@ export const Avatar = ({ setRoute }) => {
 			<p>
 				You can use initial letters of user inavataras well. You need to include
 				class <em>avatar-text</em> along with <em>avatar </em>and size class.{" "}
-				<em>(e.g. class="avatar avatar-lg-size avatar-text")</em>
+				<em>(e.g. className="avatar avatar-lg-size avatar-text")</em>
 			</p>
 			<div>
 				<div

@@ -17,28 +17,28 @@ export const Alert = () => {
 			<div className="pt-2"></div>
 			{/* Alert */}
 			<div className="alert alert-blue">
-				<i class="fas fa-stopwatch mr-1"></i>
+				<i className="fas fa-stopwatch mr-1"></i>
 				Timer Alert{" "}
 				<span className="alert-close-button">
 					<i className="fas fa-times-circle"></i>
 				</span>
 			</div>
 			<div className="alert alert-yellow">
-				<i class="fas fa-exclamation-triangle mr-1"></i>
+				<i className="fas fa-exclamation-triangle mr-1"></i>
 				Warning Alert{" "}
 				<span className="alert-close-button">
 					<i className="fas fa-times-circle"></i>
 				</span>
 			</div>
 			<div className="alert alert-green">
-				<i class="far fa-check-circle mr-1"></i>
+				<i className="far fa-check-circle mr-1"></i>
 				Success Alert{" "}
 				<span className="alert-close-button">
 					<i className="fas fa-times-circle"></i>
 				</span>
 			</div>
 			<div className="alert alert-red">
-				<i class="fas fa-exclamation-circle mr-1"></i>
+				<i className="fas fa-exclamation-circle mr-1"></i>
 				Error Alert{" "}
 				<span className="alert-close-button">
 					<i className="fas fa-times-circle"></i>
@@ -50,7 +50,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="alert alert-blue">
-  <i class="fas fa-stopwatch mr-1"></i>
+  <i className="fas fa-stopwatch mr-1"></i>
   Timer Alert{" "}
   <span className="alert-close-button">
     <i className="fas fa-times-circle"></i>
@@ -62,7 +62,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="alert alert-yellow">
-  <i class="fas fa-exclamation-triangle mr-1"></i>
+  <i className="fas fa-exclamation-triangle mr-1"></i>
   Warning Alert{" "}
   <span className="alert-close-button">
     <i className="fas fa-times-circle"></i>
@@ -74,7 +74,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="alert alert-green">
-  <i class="far fa-check-circle mr-1"></i>
+  <i className="far fa-check-circle mr-1"></i>
   Success Alert{" "}
   <span className="alert-close-button">
     <i className="fas fa-times-circle"></i>
@@ -86,7 +86,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="alert alert-red">
-  <i class="fas fa-exclamation-circle mr-1"></i>
+  <i className="fas fa-exclamation-circle mr-1"></i>
   Error Alert{" "}
   <span className="alert-close-button">
     <i className="fas fa-times-circle"></i>
@@ -105,28 +105,28 @@ export const Alert = () => {
 			<div className="pt-2"></div>
 			{/* Alert */}
 			<div className="quote quote-blue">
-				<i class="fas fa-stopwatch mr-1"></i>
+				<i className="fas fa-stopwatch mr-1"></i>
 				Timer quote{" "}
 				<span className="quote-close-button">
 					<i className="fas fa-times-circle"></i>
 				</span>
 			</div>
 			<div className="quote quote-yellow">
-				<i class="fas fa-exclamation-triangle mr-1"></i>
+				<i className="fas fa-exclamation-triangle mr-1"></i>
 				Warning quote{" "}
 				<span className="quote-close-button">
 					<i className="fas fa-times-circle"></i>
 				</span>
 			</div>
 			<div className="quote quote-green">
-				<i class="far fa-check-circle mr-1"></i>
+				<i className="far fa-check-circle mr-1"></i>
 				Success quote{" "}
 				<span className="quote-close-button">
 					<i className="fas fa-times-circle"></i>
 				</span>
 			</div>
 			<div className="quote quote-red">
-				<i class="fas fa-exclamation-circle mr-1"></i>
+				<i className="fas fa-exclamation-circle mr-1"></i>
 				Error quote{" "}
 				<span className="quote-close-button">
 					<i className="fas fa-times-circle"></i>
@@ -138,7 +138,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="quote quote-blue">
-  <i class="fas fa-stopwatch mr-1"></i>
+  <i className="fas fa-stopwatch mr-1"></i>
   Timer quote{" "}
   <span className="quote-close-button">
     <i className="fas fa-times-circle"></i>
@@ -150,7 +150,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="quote quote-yellow">
-  <i class="fas fa-exclamation-triangle mr-1"></i>
+  <i className="fas fa-exclamation-triangle mr-1"></i>
   Warning quote{" "}
   <span className="quote-close-button">
     <i className="fas fa-times-circle"></i>
@@ -162,7 +162,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="quote quote-green">
-  <i class="far fa-check-circle mr-1"></i>
+  <i className="far fa-check-circle mr-1"></i>
   Success quote{" "}
   <span className="quote-close-button">
     <i className="fas fa-times-circle"></i>
@@ -174,7 +174,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="quote quote-red">
-  <i class="fas fa-exclamation-circle mr-1"></i>
+  <i className="fas fa-exclamation-circle mr-1"></i>
   Error quote{" "}
   <span className="quote-close-button">
     <i className="fas fa-times-circle"></i>
@@ -193,28 +193,28 @@ export const Alert = () => {
 			<div className="pt-2"></div>
 			{/* Alert */}
 			<div className="alert alert-outline-blue">
-				<i class="fas fa-stopwatch mr-1"></i>
+				<i className="fas fa-stopwatch mr-1"></i>
 				Timer Alert{" "}
 				<span className="alert-close-button">
 					<i className="fas fa-times-circle"></i>
 				</span>
 			</div>
 			<div className="alert alert-outline-yellow">
-				<i class="fas fa-exclamation-triangle mr-1"></i>
+				<i className="fas fa-exclamation-triangle mr-1"></i>
 				Warning Alert{" "}
 				<span className="alert-close-button">
 					<i className="fas fa-times-circle"></i>
 				</span>
 			</div>
 			<div className="alert alert-outline-green">
-				<i class="far fa-check-circle mr-1"></i>
+				<i className="far fa-check-circle mr-1"></i>
 				Success Alert{" "}
 				<span className="alert-close-button">
 					<i className="fas fa-times-circle"></i>
 				</span>
 			</div>
 			<div className="alert alert-outline-red">
-				<i class="fas fa-exclamation-circle mr-1"></i>
+				<i className="fas fa-exclamation-circle mr-1"></i>
 				Error Alert{" "}
 				<span className="alert-close-button">
 					<i className="fas fa-times-circle"></i>
@@ -226,7 +226,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="alert alert-outline-blue">
-  <i class="fas fa-stopwatch mr-1"></i>
+  <i className="fas fa-stopwatch mr-1"></i>
   Timer Alert{" "}
   <span className="alert-close-button">
     <i className="fas fa-times-circle"></i>
@@ -238,7 +238,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="alert alert-outline-yellow">
-  <i class="fas fa-exclamation-triangle mr-1"></i>
+  <i className="fas fa-exclamation-triangle mr-1"></i>
   Warning Alert{" "}
   <span className="alert-close-button">
     <i className="fas fa-times-circle"></i>
@@ -250,7 +250,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="alert alert-outline-green">
-  <i class="far fa-check-circle mr-1"></i>
+  <i className="far fa-check-circle mr-1"></i>
   Success Alert{" "}
   <span className="alert-close-button">
     <i className="fas fa-times-circle"></i>
@@ -262,7 +262,7 @@ export const Alert = () => {
 					<code>
 						{`
 <div className="alert alert-outline-red">
-  <i class="fas fa-exclamation-circle mr-1"></i>
+  <i className="fas fa-exclamation-circle mr-1"></i>
   Error Alert{" "}
   <span className="alert-close-button">
     <i className="fas fa-times-circle"></i>

@@ -11,8 +11,8 @@ export const List = () => {
 			</p>
 			<hr />
 			<h4>List with no bullets</h4>
-			<div class="list-title">Categories</div>
-			<ul class="list-no-bullet">
+			<div className="list-title">Categories</div>
+			<ul className="list-no-bullet">
 				<li>Home</li>
 				<li>Smartphones</li>
 				<li>Earphones</li>
@@ -20,8 +20,8 @@ export const List = () => {
 			</ul>
 			<hr />
 			<h4>List with bullets</h4>
-			<div class="list-title">Categories</div>
-			<ul class="list-bullet">
+			<div className="list-title">Categories</div>
+			<ul className="list-bullet">
 				<li>Home</li>
 				<li>Smartphones</li>
 				<li>Earphones</li>
@@ -29,8 +29,8 @@ export const List = () => {
 			</ul>
 			<hr />
 			<h4>Unordered List</h4>
-			<div class="list-title">Categories</div>
-			<ul class="list-unorder">
+			<div className="list-title">Categories</div>
+			<ul className="list-unorder">
 				<li>Home</li>
 				<li>Smartphones</li>
 				<li>Earphones</li>
@@ -38,8 +38,8 @@ export const List = () => {
 			</ul>
 			<hr />
 			<h4>Ordered List</h4>
-			<div class="list-title">Categories</div>
-			<ul class="list-order">
+			<div className="list-title">Categories</div>
+			<ul className="list-order">
 				<li>Home</li>
 				<li>Smartphones</li>
 				<li>Earphones</li>
@@ -47,12 +47,12 @@ export const List = () => {
 			</ul>
 			<hr />
 			<h4>Inline List</h4>
-			<div class="list-title">Categories</div>
-			<ul class="list-inline">
-				<li class="list-inline">Home</li>
-				<li class="list-inline">Smartphones</li>
-				<li class="list-inline">Earphones</li>
-				<li class="list-inline">Watches</li>
+			<div className="list-title">Categories</div>
+			<ul className="list-inline">
+				<li className="list-inline">Home</li>
+				<li className="list-inline">Smartphones</li>
+				<li className="list-inline">Earphones</li>
+				<li className="list-inline">Watches</li>
 			</ul>
 		</div>
 	);
