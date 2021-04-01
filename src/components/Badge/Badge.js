@@ -30,7 +30,7 @@ export const Badge = () => {
 					<span class="status-badge status-badge-offline"></span>
 				</div>
 			</div>
-			<div className="code-display">
+			{/* <div className="code-display">
 				<pre>
 					<code>
 						{`
@@ -51,6 +51,7 @@ export const Badge = () => {
 					<br />
 				</pre>
 			</div>
+	 */}
 			<div className="flex p-2">
 				<div className="badge-icon-container pr-2">
 					<i className="fas fa-shopping-cart fa-3x"></i>
@@ -62,7 +63,7 @@ export const Badge = () => {
 					<span class="status-badge status-badge-number">5</span>
 				</div>
 			</div>
-			<div className="code-display">
+			{/* <div className="code-display">
 				<pre>
 					<code>
 						{`
@@ -79,6 +80,7 @@ export const Badge = () => {
 					<br />
 				</pre>
 			</div>
+			 */}
 			<hr />
 			<div className="flex-column">
 				<h4>Example of Text Badge</h4>
@@ -108,7 +110,7 @@ export const Badge = () => {
 					<span class="badge bg-secondary">New</span>
 				</h6>
 			</div>
-			<div className="code-display">
+			{/* <div className="code-display">
 				<pre>
 					<code>
 						{`
@@ -131,7 +133,7 @@ export const Badge = () => {
 					</code>
 					<br />
 				</pre>
-			</div>
+			</div> */}
 		</div>
 	);
 };

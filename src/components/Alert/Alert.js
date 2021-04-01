@@ -2,7 +2,7 @@ import React from "react";
 
 export const Alert = () => {
 	return (
-		<div className="container">
+		<div>
 			<h1>Alert</h1>
 			<p>
 				Alerts are used to attract user's attention for importatnt information
