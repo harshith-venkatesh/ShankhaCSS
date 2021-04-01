@@ -3,7 +3,7 @@ export const SideNav = ({ setRoute }) => {
 	return (
 		<div className="sidebar-container">
 			<div className="navbar-links">
-				<ul>
+				<ul className="flex-center">
 					<li onClick={() => setRoute("Alert")}>Alert</li>
 					<li onClick={() => setRoute("Avatar")}>Avatar</li>
 					<li onClick={() => setRoute("Badge")}>Badge</li>
