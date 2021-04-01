@@ -14,14 +14,14 @@ export const Avatar = ({ setRoute }) => {
 			<p>
 				To use Imageavatar, add <em>img</em>. and <em>avatar</em> classes
 			</p>
-			<div className="p-2 ">
-				<img src={image} alt="profile" className="avatar" />
+			<div className="flex">
+				<img src={image} alt="profile" className="avatar img-small" />
 			</div>
 			<div className="code-display">
 				<pre>
 					<code>
 						{`
-<img src={image} alt="profile" className="avatar" />
+<img src={image} alt="profile" className="avatar img-small" />
           `}
 					</code>
 					<br />
@@ -34,7 +34,7 @@ export const Avatar = ({ setRoute }) => {
 				<em>avatar</em> classes tagging different sizes{" "}
 				<em>small,medium,large</em>
 			</p>
-			<div className="flex p-1">
+			<div className="flex">
 				<img src={image} alt="profile" className="avatar img-extra-small " />
 				<img src={image} alt="profile" className="avatar img-small " />
 				<img src={image} alt="profile" className="avatar" />

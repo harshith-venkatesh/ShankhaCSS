@@ -477,8 +477,7 @@ em {
 	display: flex;
 	margin: 0 auto;
 	color: var(--blue-500);
-	width: 96%;
-	height: 20%;
+
 	overflow: auto;
 }
 
