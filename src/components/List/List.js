@@ -2,7 +2,7 @@ import React from "react";
 
 export const List = () => {
 	return (
-		<div className="container">
+		<div>
 			<h1>Lists</h1>
 			<p>
 				Lists can be used at so many places, navigation bar, stacked

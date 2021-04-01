@@ -2,7 +2,7 @@ import React from "react";
 
 export const Typography = () => {
 	return (
-		<div className="container">
+		<div>
 			<h1>Typography</h1>
 			<p>Check out below text utilities.</p>
 			<p>

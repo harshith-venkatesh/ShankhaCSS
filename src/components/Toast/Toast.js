@@ -10,7 +10,7 @@ export const Toast = () => {
 		}, 3000);
 	};
 	return (
-		<div className="container">
+		<div>
 			<h1>Toast</h1>
 			<p>
 				This component can be used for toast or snackbar component. Toast is
