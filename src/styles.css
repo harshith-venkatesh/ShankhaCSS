@@ -402,12 +402,22 @@ em {
 	.navbar-links.active {
 		display: flex;
 	}
+	.main-container {
+		position: relative;
+		display: grid;
+		padding: 0;
+		margin: 0;
+		width: 100vw;
+		min-height: 100vh;
+	}
+
 	.container {
 		position: relative;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		padding: 0 1rem;
+		width: 100%;
 	}
 }
 
