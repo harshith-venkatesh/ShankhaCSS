@@ -45,7 +45,7 @@ export const Alert = () => {
 				</span>
 			</div>
 			<div className="pt-2"></div>
-			<div className="code-display">
+			{/* <div className="code-display">
 				<pre>
 					<code>
 						{`
@@ -96,6 +96,7 @@ export const Alert = () => {
 					</code>
 				</pre>
 			</div>
+			 */}
 			<hr />
 			<h4>Block Quote</h4>
 			<p>
@@ -133,7 +134,7 @@ export const Alert = () => {
 				</span>
 			</div>
 			<div className="pt-2"></div>
-			<div className="code-display">
+			{/* <div className="code-display">
 				<pre>
 					<code>
 						{`
@@ -184,6 +185,7 @@ export const Alert = () => {
 					</code>
 				</pre>
 			</div>
+		 */}
 			<hr />
 			<h4>Alert Outlined</h4>
 			<p>
@@ -221,7 +223,7 @@ export const Alert = () => {
 				</span>
 			</div>
 			<div className="pt-2"></div>
-			<div className="code-display">
+			{/* <div className="code-display">
 				<pre>
 					<code>
 						{`
@@ -272,6 +274,7 @@ export const Alert = () => {
 					</code>
 				</pre>
 			</div>
+		 */}
 		</div>
 	);
 };
