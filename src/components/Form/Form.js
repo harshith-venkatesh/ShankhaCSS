@@ -53,7 +53,7 @@ export const Form = () => {
 					className="form-field"
 					placeholder="Disabled read only"
 					disabled
-					readonly
+					readOnly
 				/>
 				<div className="error-text">*read-only</div>
 				<hr />

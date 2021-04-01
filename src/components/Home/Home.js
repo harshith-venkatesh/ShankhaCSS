@@ -1,11 +1,19 @@
 import React from "react";
-import image from "../../assets/cherry-209.png";
+
 export const Home = ({ setRoute }) => {
 	return (
-		<div class="container home-container">
+		<div className="container home-container">
 			<div className="home-text">
 				Build your next app with{" "}
 				<span className="home-text-highlight">speed & elegant design</span>
+				<div className="flex flex-center">
+					<button
+						className="btn btn-solid-primary"
+						onClick={() => setRoute("Alert")}
+					>
+						Get Started
+					</button>
+				</div>
 			</div>
 		</div>
 	);
