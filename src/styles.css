@@ -957,6 +957,7 @@ hr {
 	height: 25rem;
 	transition: 0.5s transform ease-in-out;
 	margin: 2rem auto;
+	padding: 1rem;
 }
 
 .card-text-container {
@@ -964,7 +965,6 @@ hr {
 	transition: 0.3s;
 	width: 100%;
 	transition: 0.5s transform ease-in-out;
-	margin: 2rem auto;
 	padding: 1rem;
 }
 
