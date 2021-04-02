@@ -48,7 +48,7 @@ export const List = () => {
 			<hr />
 			<h4>Inline List</h4>
 			<div className="list-title">Categories</div>
-			<ul className="list-inline">
+			<ul>
 				<li className="list-inline">Home</li>
 				<li className="list-inline">Smartphones</li>
 				<li className="list-inline">Earphones</li>
