@@ -2,7 +2,7 @@ import React from "react";
 
 export const Home = ({ setRoute }) => {
 	return (
-		<div className="container home-container">
+		<div className="home-container">
 			<div className="home-text">
 				Build your next app with{" "}
 				<span className="home-text-highlight">speed & elegant design</span>

@@ -86,6 +86,8 @@ body {
 	font-family: "Montserrat", sans-serif;
 	font-size: 1rem;
 	line-height: 1.2;
+	margin: 0;
+	padding: 0;
 	width: 98vw;
 	min-height: 100vh;
 	background: radial-gradient(
@@ -353,9 +355,6 @@ em {
 
 	.container {
 		position: relative;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
 		padding: 0 1rem;
 		width: 100%;
 	}
@@ -385,9 +384,6 @@ em {
 }
 .container {
 	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	padding: 0 2rem;
 	min-height: 90vh;
 }
@@ -503,7 +499,6 @@ hr {
 	flex-direction: column;
 	text-align: center;
 	color: white;
-	border-bottom-left-radius: 1rem;
 	border-top-right-radius: 1rem;
 }
 
@@ -937,7 +932,6 @@ select {
 
 .error-text {
 	font-size: 0.8rem;
-	margin: 0.4rem auto;
 	color: var(--error-color);
 	font-weight: 550;
 }
@@ -1141,9 +1135,8 @@ select {
 
 /* Home */
 .home-container {
-	position: relative;
-	text-align: center;
-	overflow: hidden;
+	display: table;
+	margin: 10rem auto;
 }
 
 .home-image {
@@ -1153,13 +1146,10 @@ select {
 }
 .home-text {
 	z-index: 1;
-	position: absolute;
 	font-size: 2rem;
 	color: var(--primary-color);
 	font-weight: bold;
-	top: 40%;
-	left: 30%;
-	width: 40%;
+	margin: auto;
 }
 
 .home-text-highlight {
