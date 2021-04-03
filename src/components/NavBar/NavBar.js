@@ -11,7 +11,7 @@ export const NavBar = ({ setRoute }) => {
 				medium and small devices
 			</p>
 			<div style={{ display: "block" }}>
-				<nav className="header-container">
+				<nav className="navbar-container">
 					<div className="header-logo " onClick={() => setRoute("home")}>
 						<img
 							className="header-image"

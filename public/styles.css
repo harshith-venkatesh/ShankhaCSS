@@ -780,6 +780,18 @@ hr {
 	cursor: pointer;
 }
 
+.bg-primary {
+	color: white;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.bg-secondary {
+	color: var(--gray-300);
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
 .btn-solid-default {
 	background-color: var(--gray-700);
 	color: white;
@@ -1050,10 +1062,12 @@ select {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem;
-	background: var(--blue-100);
-	margin: 1rem auto;
-	border-radius: 1.2rem;
+	padding: 0.5rem auto;
+	background: var(--blue-900);
+	color: white;
+	margin: 0;
+	border-bottom-left-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
 }
 .nav-links {
 	font-weight: 500;
