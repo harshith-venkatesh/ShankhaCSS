@@ -11,7 +11,7 @@ export const Home = ({ setRoute }) => {
 						className="btn btn-solid-primary"
 						onClick={() => setRoute("Alert")}
 					>
-						Get Started
+						Get Started <i className="fas fa-arrow-right"></i>
 					</button>
 				</div>
 			</div>

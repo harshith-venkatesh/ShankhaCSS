@@ -17,7 +17,7 @@ export const Header = ({ setRoute }) => {
 			<div>
 				<div>
 					<ul className="version-title list-no-bullet">
-						<li onClick={() => setRoute("Avatar")}>Documentation</li>
+						<li onClick={() => setRoute("Alert")}>Documentation</li>
 					</ul>
 				</div>
 				<button
