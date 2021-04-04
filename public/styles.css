@@ -747,6 +747,7 @@ hr {
 	position: relative;
 	width: 3rem;
 	height: 3rem;
+	cursor: pointer;
 }
 
 .status-badge-number {
@@ -758,6 +759,7 @@ hr {
 	border: none;
 	right: -0.1rem;
 	top: -0.4rem;
+	cursor: pointer;
 }
 
 /* Button */
