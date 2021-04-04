@@ -54,12 +54,12 @@ export const Badge = () => {
 	 */}
 			<div className="flex p-2">
 				<div className="badge-icon-container pr-2">
-					<i className="fas fa-shopping-cart fa-3x"></i>
+					<i className="fas fa-shopping-cart fa-2x"></i>
 					<span class="status-badge status-badge-number">2</span>
 				</div>
 				<div className="pr-5"></div>
 				<div className="badge-icon-container pr-2">
-					<i className="far fa-heart fa-3x"></i>
+					<i className="far fa-heart fa-2x"></i>
 					<span class="status-badge status-badge-number">5</span>
 				</div>
 			</div>
