@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export const Header = () => {
 	return (
 		<nav className="header-container">
-			<NavLink className="header-logo property-none" to="/home">
+			<NavLink className="header-logo property-none" to="/">
 				<img
 					className="header-image"
 					src="https://mythologyandvaishbhat.files.wordpress.com/2020/07/shankh.png?w=500"
@@ -15,14 +15,11 @@ export const Header = () => {
 					<span className="version-title">v1.0</span>
 				</div>
 			</NavLink>
-			<div>
-				<div>
-					<ul className="version-title list-no-bullet">
-						<NavLink to="/alert" className="version-title property-none">
-							Documentation
-						</NavLink>
-					</ul>
-				</div>
+
+			<div className="header-list">
+				<NavLink to="/alert" className="version-title property-none ">
+					Docs
+				</NavLink>
 				<button
 					className="toggle-button"
 					onClick={() => {
