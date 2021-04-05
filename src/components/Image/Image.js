@@ -14,13 +14,13 @@ export const Image = () => {
 			<p> Square Images are the square shaped, with a default dimension</p>
 			<div className="border-image">
 				<img
-					className="border-square-image"
+					className="border-square-image p-1"
 					alt="profile"
 					src="https://source.unsplash.com/random/610"
 				/>
 				<img
 					alt="profile"
-					className="border-square-image"
+					className="border-square-image p-1"
 					src="https://source.unsplash.com/random/611"
 				/>
 			</div>
@@ -34,12 +34,12 @@ export const Image = () => {
 			<div className="border-image">
 				<img
 					alt="profile"
-					className="border-round-image"
+					className="border-round-image p-1"
 					src="https://source.unsplash.com/random/610"
 				/>
 				<img
 					alt="profile"
-					className="border-round-image"
+					className="border-round-image p-1"
 					src="https://source.unsplash.com/random/611"
 				/>
 			</div>
