@@ -20,33 +20,34 @@ import {
 } from "./components";
 
 import "./styles.css";
+import { Routes, Route } from "react-router-dom";
 
 export default function App() {
-	const [route, setRoute] = useState("home");
 	return (
 		<div className="main-container">
 			<div className="border-1">
-				<Header setRoute={setRoute} />
+				<Header />
 			</div>
 			<div className="sidenav">
-				<SideNav setRoute={setRoute} />
+				<SideNav />
 			</div>
 			<div className="container">
-				{route === "home" && <Home setRoute={setRoute} />}
-				{route === "Avatar" && <Avatar />}
-				{route === "Alert" && <Alert />}
-				{route === "Badge" && <Badge />}
-				{route === "Button" && <Button />}
-				{route === "Card" && <Card />}
-				{route === "Form" && <Form />}
-				{route === "Image" && <Image />}
-				{route === "List" && <List />}
-				{route === "NavBar" && <NavBar setRoute={setRoute} />}
-				{route === "Rating" && <Rating />}
-				{route === "Typography" && <Typography />}
-				{route === "Toast" && <Toast />}
+				<Routes>
+					<Route path="/" element={<Home />} exact />
+					<Route path="/avatar" element={<Avatar />} />
+					<Route path="/alert" element={<Alert />} />
+					<Route path="/badge" element={<Badge />} />
+					<Route path="/button" element={<Button />} />
+					<Route path="/card" element={<Card />} />
+					<Route path="/form" element={<Form />} />
+					<Route path="/image" element={<Image />} />
+					<Route path="/list" element={<List />} />
+					<Route path="/navbar" element={<NavBar />} />
+					<Route path="/rating" element={<Rating />} />
+					<Route path="/typography" element={<Typography />} />
+					<Route path="/toast" element={<Toast />} />
+				</Routes>
 			</div>
-
 			<div>
 				<Footer />
 			</div>

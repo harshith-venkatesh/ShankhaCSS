@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export const Home = ({ setRoute }) => {
 	return (
@@ -7,12 +8,9 @@ export const Home = ({ setRoute }) => {
 				Build your next app with{" "}
 				<span className="home-text-highlight">speed & elegant design</span>
 				<div className="flex flex-center">
-					<button
-						className="btn btn-solid-primary"
-						onClick={() => setRoute("Alert")}
-					>
+					<NavLink className="btn btn-solid-primary" to="/alert">
 						Get Started <i className="fas fa-arrow-right"></i>
-					</button>
+					</NavLink>
 				</div>
 			</div>
 		</div>
