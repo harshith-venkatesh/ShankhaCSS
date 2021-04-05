@@ -1,9 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-export const SideNav = ({ setRoute }) => {
+export const SideNav = () => {
 	return (
 		<div className="sidebar-container">
-			<div className="sidebar-links">
+			<div
+				className="sidebar-links"
+				onClick={() => {
+					document
+						.getElementsByClassName("sidebar-links")[0]
+						.classList.toggle("active");
+				}}
+			>
 				<NavLink
 					to="/alert"
 					className="nav-btn"
