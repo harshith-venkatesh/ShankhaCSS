@@ -23,7 +23,7 @@ export const Installation = () => {
 				</pre>
 			</div>
 			<div className="flex flex-center">
-				<NavLink className="btn btn-solid-primary" to="/alert">
+				<NavLink className="btn btn-solid-primary" to="/docs/alert">
 					Documentation <i className="fas fa-arrow-right"></i>
 				</NavLink>
 			</div>

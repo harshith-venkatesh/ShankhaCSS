@@ -2,66 +2,66 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 export const SideNav = () => {
 	return (
-		<div className="sidebar-container">
+		<>
 			<div
-				className="sidebar-menu"
+				className="sidebarMenu"
 				onClick={() => {
 					document
-						.getElementsByClassName("sidebar-menu")[0]
+						.getElementsByClassName("sidebarMenu")[0]
 						.classList.toggle("active");
 				}}
 			>
 				<NavLink
-					to="/install"
+					to="/docs/install"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
 					Installation
 				</NavLink>
 				<NavLink
-					to="/alert"
+					to="/docs/alert"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
 					Alert
 				</NavLink>
 				<NavLink
-					to="/avatar"
+					to="/docs/avatar"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
 					Avatar
 				</NavLink>
 				<NavLink
-					to="/badge"
+					to="/docs/badge"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
 					Badge
 				</NavLink>
 				<NavLink
-					to="/button"
+					to="/docs/button"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
 					Button
 				</NavLink>
 				<NavLink
-					to="/card"
+					to="/docs/card"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
 					Card
 				</NavLink>
 				<NavLink
-					to="/form"
+					to="/docs/form"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
 					Form
 				</NavLink>
 				<NavLink
-					to="/image"
+					to="/docs/image"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
@@ -69,7 +69,7 @@ export const SideNav = () => {
 				</NavLink>
 
 				<NavLink
-					to="/list"
+					to="/docs/list"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
@@ -77,34 +77,34 @@ export const SideNav = () => {
 				</NavLink>
 
 				<NavLink
-					to="/navbar"
+					to="/docs/navbar"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
 					NavBar
 				</NavLink>
 				<NavLink
-					to="/rating"
+					to="/docs/rating"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
 					Rating
 				</NavLink>
 				<NavLink
-					to="/typography"
+					to="/docs/typography"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
 					Typography
 				</NavLink>
 				<NavLink
-					to="/toast"
+					to="/docs/toast"
 					className="nav-btn"
 					activeClassName="nav-btn selected"
 				>
 					Toast
 				</NavLink>
 			</div>
-		</div>
+		</>
 	);
 };

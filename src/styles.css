@@ -311,7 +311,7 @@ em {
 	background: var(--blue-100);
 }
 
-.sidebar-menu {
+.sidebarMenu {
 	display: flex;
 	justify-content: center;
 	padding: 1rem;
@@ -354,11 +354,6 @@ em {
 	margin: 0;
 	width: 100%;
 	min-height: 100vh;
-}
-.container {
-	position: relative;
-	padding: 0 2rem;
-	min-height: 90vh;
 }
 
 .property-none {
@@ -1066,7 +1061,7 @@ select {
 .selected {
 	color: var(--primary-color);
 	font-weight: 700;
-	border-left: 5px solid var(--blue-500);
+
 	border-right: 5px solid var(--blue-500);
 }
 
@@ -1154,7 +1149,47 @@ select {
 	color: black;
 }
 
+.sidenav-continer {
+	grid-area: nav;
+	background: var(--blue-100);
+	width: 100%;
+}
+
+.component-container {
+	grid-area: component;
+	padding: 0 1rem;
+}
+
+.container {
+	position: relative;
+	padding: 0 2rem;
+	display: grid;
+	width: 100%;
+	min-height: 98vh;
+	grid-template-columns: 12rem 1fr;
+	grid-template-areas: "nav component";
+}
+
+.sidebarMenu {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0.5rem;
+	margin: 0.5rem auto;
+}
+
 @media (max-width: 600px) {
+	.container {
+		padding: 0 2rem;
+		display: grid;
+		width: 100%;
+		min-height: 98vh;
+		grid-template-areas: "nav nav" "component component";
+	}
+
+	.sidenav-continer {
+		width: 100%;
+	}
 	.header-title-name {
 		font-size: 0.8rem;
 	}
@@ -1180,7 +1215,7 @@ select {
 		margin: 0.5rem auto;
 	}
 
-	.sidebar-menu {
+	.sidebarMenu {
 		display: none;
 		width: 100%;
 		padding: 0.5rem;
@@ -1201,12 +1236,14 @@ select {
 		flex-direction: column;
 	}
 
-	.sidebar-menu.active {
+	.sidebarMenu.active {
 		display: flex;
 		flex-direction: column;
-		width: 100%;
+		width: 100vw;
+		overflow-y: auto;
 		text-align: center;
 		padding: 0.2rem 0;
+		scroll-behavior: smooth;
 	}
 
 	.container {
