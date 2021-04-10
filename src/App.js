@@ -10,6 +10,7 @@ import {
 	Header,
 	Home,
 	Image,
+	Installation,
 	List,
 	NavBar,
 	Rating,
@@ -41,6 +42,8 @@ export default function App() {
 					<Route path="/card" element={<Card />} />
 					<Route path="/form" element={<Form />} />
 					<Route path="/image" element={<Image />} />
+
+					<Route path="/install" element={<Installation />} />
 					<Route path="/list" element={<List />} />
 					<Route path="/navbar" element={<NavBar />} />
 					<Route path="/rating" element={<Rating />} />

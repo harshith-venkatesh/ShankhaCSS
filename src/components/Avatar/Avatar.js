@@ -15,9 +15,9 @@ export const Avatar = ({ setRoute }) => {
 				To use Imageavatar, add <em>img</em>. and <em>avatar</em> classes
 			</p>
 			<div className="flex">
-				<img src={image} alt="profile" className="avatar img-small" />
+				<img src={image} alt="profile" className="avatar" />
 			</div>
-			{/* <div className="code-display">
+			<div className="code-display">
 				<pre>
 					<code>
 						{`
@@ -27,7 +27,7 @@ export const Avatar = ({ setRoute }) => {
 					<br />
 				</pre>
 			</div>
-			 */}
+
 			<hr />
 			<h4>Avatar of Different Sizes</h4>
 			<p>

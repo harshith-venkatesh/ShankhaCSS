@@ -15,3 +15,4 @@ export { Slider } from "./Slider/Slider";
 export { Typography } from "./Typography/Typography";
 export { Toast } from "./Toast/Toast";
 export { Home } from "./Home/Home";
+export { Installation } from "./Installation/Installation";

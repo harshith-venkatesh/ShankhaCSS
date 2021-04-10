@@ -4,13 +4,20 @@ export const SideNav = () => {
 	return (
 		<div className="sidebar-container">
 			<div
-				className="sidebar-links"
+				className="sidebar-menu"
 				onClick={() => {
 					document
-						.getElementsByClassName("sidebar-links")[0]
+						.getElementsByClassName("sidebar-menu")[0]
 						.classList.toggle("active");
 				}}
 			>
+				<NavLink
+					to="/install"
+					className="nav-btn"
+					activeClassName="nav-btn selected"
+				>
+					Installation
+				</NavLink>
 				<NavLink
 					to="/alert"
 					className="nav-btn"
