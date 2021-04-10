@@ -1,7 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useSideNav } from "../../context/sideNavContext";
 
 export const Header = () => {
+	const { setSideNav } = useSideNav();
 	return (
 		<nav className="header-container">
 			<NavLink className="header-logo property-none" to="/">
@@ -17,16 +19,9 @@ export const Header = () => {
 			</NavLink>
 
 			<div className="header-list">
-				<NavLink to="/alert" className="version-title property-none ">
-					Docs
-				</NavLink>
 				<button
 					className="toggle-button"
-					onClick={() => {
-						document
-							.getElementsByClassName("sidebarMenu")[0]
-							.classList.toggle("active");
-					}}
+					onClick={() => setSideNav((prev) => !prev)}
 				>
 					<span className="bar"></span>
 					<span className="bar"></span>

@@ -1,15 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useSideNav } from "../../context/sideNavContext";
+
 export const SideNav = () => {
+	const { sideNav, setSideNav } = useSideNav();
 	return (
 		<>
 			<div
-				className="sidebarMenu"
-				onClick={() => {
-					document
-						.getElementsByClassName("sidebarMenu")[0]
-						.classList.toggle("active");
-				}}
+				className={sideNav === true ? "sidebarMenuActive" : "sidebarMenu"}
+				onClick={() => setSideNav((prev) => !prev)}
 			>
 				<NavLink
 					to="/docs/install"
