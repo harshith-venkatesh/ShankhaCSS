@@ -1171,7 +1171,8 @@ select {
 	grid-template-areas: "nav component";
 }
 
-.sidebarMenu {
+.sidebarMenu,
+.sidebarMenuActive {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
