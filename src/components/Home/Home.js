@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export const Home = ({ setRoute }) => {
+export const Home = () => {
 	return (
 		<div className="home-container">
 			<div className="home-text">

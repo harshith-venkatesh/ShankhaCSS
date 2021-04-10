@@ -1057,7 +1057,7 @@ select {
 
 .nav-btn {
 	display: inline;
-	padding: 0 0.5rem;
+	padding: 0.5rem 0.5rem;
 	text-decoration: none;
 	font-size: 1rem;
 	color: black;
@@ -1066,11 +1066,14 @@ select {
 .selected {
 	color: var(--primary-color);
 	font-weight: 700;
+	border-left: 5px solid var(--blue-500);
+	border-right: 5px solid var(--blue-500);
 }
 
 .nav-btn:hover {
 	color: var(--primary-color);
 	cursor: pointer;
+	background: var(--gray-100);
 }
 
 .nav-links-button {

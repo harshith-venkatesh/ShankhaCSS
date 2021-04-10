@@ -24,7 +24,7 @@ export const Header = () => {
 					className="toggle-button"
 					onClick={() => {
 						document
-							.getElementsByClassName("sidebar-links")[0]
+							.getElementsByClassName("sidebar-menu")[0]
 							.classList.toggle("active");
 					}}
 				>
