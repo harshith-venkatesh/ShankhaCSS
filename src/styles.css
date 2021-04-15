@@ -1168,6 +1168,7 @@ select {
 	width: 100%;
 	min-height: 98vh;
 	grid-template-columns: 12rem 1fr;
+	grid-template-rows: auto;
 	grid-template-areas: "nav component";
 }
 
@@ -1190,7 +1191,9 @@ select {
 		display: grid;
 		width: 100%;
 		min-height: 98vh;
-		grid-template-areas: "nav nav" "component component";
+		grid-template-rows: auto 1fr;
+		grid-template-columns: auto;
+		grid-template-areas: "nav" "component";
 	}
 
 	.sidenav-continer {
