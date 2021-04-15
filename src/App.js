@@ -1,5 +1,5 @@
 import "./styles.css";
-import { Routes, Route, Switch } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Header, Home, Footer } from "./components";
 import { Documentation } from "./documentation";
 export default function App() {
