@@ -311,12 +311,6 @@ em {
 	background: var(--blue-100);
 }
 
-.sidebarMenu {
-	display: flex;
-	justify-content: center;
-	padding: 1rem;
-}
-
 .toggle-button {
 	position: absolute;
 	top: 0.75rem;
@@ -1247,16 +1241,6 @@ select {
 	.navbar-links.active {
 		display: flex;
 		flex-direction: column;
-	}
-
-	.sidebarMenu.active {
-		display: flex;
-		flex-direction: column;
-		width: 98vw;
-		overflow-y: auto;
-		text-align: center;
-		padding: 0.2rem 0;
-		scroll-behavior: smooth;
 	}
 
 	.sidebarMenuActive {
